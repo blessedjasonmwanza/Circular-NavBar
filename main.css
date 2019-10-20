@@ -1,3 +1,6 @@
+@mixin{
+    translation: easeOut();
+}
 :root{
     --body-bg-color: rgb(70, 70, 102);
     --bg-image:url("./tenor.gif") center fixed  ; 
@@ -43,7 +46,7 @@ body{
     line-height: 150px;
     margin: 0 auto;
     border-radius: 50%; 
-    background-color: rgb(24, 23, 23);
+    background-color: #000000;
     position: relative;
     cursor: pointer;
     text-align: center;
@@ -108,7 +111,7 @@ body{
     background: rgb(255, 255, 255);
     position: absolute;
     font-size: 35%;
-    color: rgba(0, 0, 0, 0.63);
+    color: #222;
     transition: 0.7s;
 
 }
