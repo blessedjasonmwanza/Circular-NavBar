@@ -1,29 +1,19 @@
 :root{
     --body-bg-color: rgb(70, 70, 102);
-    --bg-image:url("./tenor.gif") center fixed  ; 
+    --bg-image:url("./tenor.jpg") center fixed  ; 
 }
 html { 
-    background: url(tenor.gif) center fixed  ;      
+    background: url(tenor.jpg) center fixed  ;      
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    animation: tenor_anim 5s linear infinite;
     opacity: 4.25;
     
-  }
-  @keyframes tenor_anim{
-    0%{background-position:0 0; }
-    100%{background-position: -2122px 0;}  
   }
 body{ 
     font-family: tahoma;
     overflow: hidden;
-   
-    }
-@keyframes SmokeFog_anim{
-  0%{background-position:0 0; }
-  100%{background-position: -2122px 0;}  
 }
 .main{
     display: inline-flex;
@@ -43,7 +33,7 @@ body{
     line-height: 150px;
     margin: 0 auto;
     border-radius: 50%; 
-    background-color: rgb(24, 23, 23);
+    background-color: #000000;
     position: relative;
     cursor: pointer;
     text-align: center;
@@ -108,7 +98,7 @@ body{
     background: rgb(255, 255, 255);
     position: absolute;
     font-size: 35%;
-    color: rgba(0, 0, 0, 0.63);
+    color: #222;
     transition: 0.7s;
 
 }
